@@ -1,3 +1,108 @@
 body {
-    background-image: url("spiritofesctasy2.jpg");
+    background-image: url(/spiritofesctasy2.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+/* I want to use flexbox to separate the element in the nav bar*/
+.nav {
+    display: flex;
+}
+
+
+
+.nav img {
+    height: 80px;
+
+
+}
+
+.nav ul {
+    gap: 16px;
+    list-style: none;
+
+
+
+}
+
+.nav-container ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+ul {
+    flex: 1;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container .header {
+    font-size: 80px;
+    flex: 1;
+}
+
+.content-container div {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: 200;
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+
+    height: 80px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: #eee;
+    padding: auto;
+
+}
+
+.update-container {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: large;
+    margin: 50px;
+
+
+
+
+}
+
+.footer {
+
+    text-align: center;
+    background-color: darkblue;
+    height: 40px;
+    padding-top: 10px;
 }
